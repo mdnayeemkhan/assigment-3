@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+   
+}
+.logo img {
+    height: 39px;
+    padding: 9px 0px 0px 33px;
+}
+
+.menu{
+    width: 55%;
+    float: left;
+    
+}
+
+.menu nav ul{
+    list-style: none;
+}
+
+.menu nav ul li{
+    display: inline-block;
+    margin: 0px 34px;
+    padding: 16px 0px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color:rgb(248, 4, 4);  
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+    text-align: center; 
+}
+
+.menu nav ul li a:hover{
+    color: blue;
+}
+
+
+.login{
+    width: 25%;
+    float: left;
+}
+
+.login ul{
+    list-style: none;
+}
+
+.login ul li{
+display: inline-block;
+margin: 0px 8px;
+padding: 15px 0px;
+}
+
+
+.login ul button {
+    border: none;
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+
+
+.fa.fa-facebook{
+    background: #0A82EC;
+    padding: 4px 8px;
+    color: white;
+    border-radius:18px ;
+    transition: 0.4s ease-in-out;
+}
+
+.fa.fa-facebook:hover{
+    transform:scale(1.5);
+}
+
+.fa.fa-instagram {
+    background: #3f729b;
+    transition: 0.4s ease-in-out;
+    padding: 4px 8px;
+    border-radius: 7px;
+    color: #EE4B60
+}
+
+.fa.fa-instagram:hover{
+    transform: rotate(360deg);
+}
+
+.fa.fa-twitter {
+    background: #4DA6E9;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.fa.fa-twitter:hover{
+    transform:scale(1.5);
+}
+
+.fa.fa-google{
+        background:  black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.fa.fa-google:hover{
+    transform: rotate(360deg);
+}
+
+/* banner */
+
+.banner-one{
+    background: url(../img/love2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    float: left;
+}
+
+.banner-two {
+    background: #1a1a1a38;
+    padding: 10px;
+    margin: 55px;
+    width: 40%;
+    height: 200px;
+}
+
+.banner-two h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.banner-two button {
+    text-transform: uppercase;
+    margin: 14px 62px 0px 0px;
+    padding: 2px;
+    background: #228f22;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.body-one{
+    height:260px;
+    width: 25%;
+    float: left;
+    margin: 35px 0px 0px 0px;
+
+}
+
+.body-one img {
+    display: block;
+    width: 80px;
+    margin: 0px 0px 0px 100px;
+}
+
+.body-one h2 {
+    text-align: center;
+}
+
+.body-one h4 {
+    font-size: 17px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 2px 0px 0px;
+}
+
+.body-one button {
+    margin: 0px 0px 0px 100px;
+    background: green;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.body-two{
+    height: 260px;
+    width: 25%;
+    float: left;
+    margin: 35px 0px 0px 0px;
+}
+
+.body-two img{
+    display: block;
+    width: 80px;
+    margin: 0px 0px 0px 100px;
+}
+
+.body-two h2{
+    text-align: center;
+}
+
+.body-two h4{
+    font-size: 17px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 2px 0px 0px;
+}
+
+.body-two button{
+    margin: 0px 0px 0px 100px;
+    background: green;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.body-three{
+    height: 260px;
+    width: 25%;
+    float: left;
+    margin: 35px 0px 0px 0px;
+}
+
+.body-three img{
+    display: block;
+    width: 80px;
+    margin: 0px 0px 0px 100px;
+}
+
+.body-three h2{
+    text-align: center;
+}
+
+.body-three h4{
+    font-size: 17px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 2px 0px 0px;
+}
+
+.body-three button{
+    margin: 9px 0px 0px 100px;
+    background: green;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.body-four{
+    height: 260px;
+    width: 25%;
+    float: left;
+    margin: 35px 0px 0px 0px;
+}
+
+.body-four img{
+    display: block;
+    width: 80px;
+    margin: 0px 0px 0px 100px;
+}
+
+.body-four h2{
+    text-align: center;
+}
+
+.body-four h4{
+    font-size: 17px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 2px 0px 0px;   
+}
+
+.body-four button{
+    margin: 9px 0px 0px 100px;
+    background: green;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.middle-one {
+    background-color: #B7CCD3;
+    height: 250px;
+    width: 48%;
+    float: left;
+    margin: 0 22px 0 0;
+}
+
+.middle-one ul li {
+    list-style: square;
+    margin: 10px 0px 14px 154px;
+}
+
+.middle-one ul button {
+    background: #228f22;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0px 0px 0px 200px;
+    cursor: pointer;
+}
+
+.middle-one h2 {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.middle-two{
+    background-color: #B7CCD3;
+    height: 250px;
+    width: 48%;
+    float: left;
+    margin: 0 0 0 23px;
+}
+
+.middle-two ul li{
+    list-style: square;
+    margin: 10px 0px 14px 154px;
+}
+
+.middle-two ul button{
+    background: #228f22;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0px 0px 0px 200px;
+    cursor: pointer;
+}
+
+.middle-two h2{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.title-one{
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+
+.title-one p {
+    color: blue;
+    margin: 20.5px 0px 0px 550px;
+    font-size: 25px;
+}
+
+.C014-one{
+    height: 200px;
+    width: 48%;
+    float: left;
+    margin: 0 22px 0 0;
+}
+
+.C014-one a {
+    text-decoration: none;
+    font-size: 29px;
+}
+
+.C014-one p {
+    color: black;
+    font-size: 17px;
+    padding: 9px 0px 0px 14px;
+}
+
+.C014-one button {
+    padding: 2px;
+    margin: 4px 0px 0px 224px;
+    background: green;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.C014-two{
+    height: 150px;
+    width: 48%;
+    float: left;
+    margin: 0 0 0 23px;
+}
+
+.C014-two a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.C014-two p {
+    color: black;
+    padding: 40px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.C014-two button{
+    padding: 2px;
+    margin: 4px 0px 0px 224px;
+    background: green;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.D014-one {
+    background-color: #DCDCDC;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+.D014-one i {
+    margin: 0px 0px 0px 521px;
+}
+
+.D014-one p {
+    text-align: center;
+    margin: 26px 0px 0px -5px;
+}
+
+.E014-one{
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+.E014-one img {
+    height: 118px;
+    margin: 11px 0px 0px 466px;
+}
+
+
+
+
+.F014-one {
+    background-color: #808080;
+    height: 240px;
+    width: 100%;
+    float: left;
+}
+
+.F014-one img {
+    color: white;
+    margin: 4px 0px 0px 4px;
+}
+
+.G014-one{
+    background: #4C515A;
+    height:100px;
+    width: 100%;
+    float: left;
+}
+
+.G014-one p {
+    text-align: center;
+    margin: 14px 0px 0px 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.G014-one p img {
+    width: 114px;
+    margin: 12px 0px 0px 0px;
+}
+
+.G014-one a img {
+    margin: -36px 0px 0px 638px;
+    height: 40px;
+    width: 163px;
+    position: absolute;
+}

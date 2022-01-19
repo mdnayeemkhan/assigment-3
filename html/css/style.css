@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 600px;
+	margin: 10% auto;
+
+}
+body{
+	background: url(../img/nayeem.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Island Moments', cursive;
+	font-family: 'Moon Dance', cursive;
+}
+.login-section{
+	padding: 25px;
+	border-radius: 33px;
+	background-size: cover;
+}
+.login-section img{
+	margin: 0px auto;
+	width: 150px;
+	display: block;
+}
+.login-section h2{
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 10px 0;
+	font-family: "Lobster", cursive;
+}
+.hr1{
+	color: yellow;
+}
+.form-control{
+	width: 90%;
+	height: 45px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+.container1{
+	color:white;
+	font-size: 22px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+
+}
+.container1:hover{
+	background: rgb(255, 0, 0);
+}
+.container1::before{
+	background: greenyellow;
+	z-index: -1;
+	transition: 0.4s;
+}
+.btn{
+	border: 1px solid #3498db;
+	background: none;
+	padding:10px 20px ;
+	font-size: 20px;
+	font-family:"montserrat";
+	cursor: pointer;
+	margin: 0px auto;
+	transition:0.8s;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	padding: 10px 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.8s ease-in-out;
+}
+.btn1{
+	color:#f70707;
+}
+.btn1:hover{
+	color:#fff;
+}
+.btn::before{
+	content:"";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height:  0%;
+	background:rgb(250, 3, 3);
+	z-index: -1;
+	transition: 0.8s;
+}
+.btn1::before{
+	top: 0;
+	border-radius:0 0 50% 50% ;
+}
+.btn1:hover::before{
+	height: 180%;
+}
+
+/* registration */
+
+* {box-sizing: border-box}
+.container11 {
+	padding: 16px;
+	width: 600px;
+	margin: 10% auto;
+}
+.container11 h1{
+	text-align: center;
+	color: yellow;
+	font-size: 52px;
+}
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+
+/* forget password */
+.change{
+	padding: 16px;
+	width: 600px;
+	margin: 10% auto;
+}
+.change h2{
+	text-align: center;
+	color: yellow;
+	font-size: 40px;
+}
+.email{
+	color: greenyellow;
+	transition: 0.8s;
+}
+.email:hover{
+	background: rgb(255, 0, 0);
+}
+.password{
+	color: rgb(0, 225, 255);
+	transition: 0.8s;
+}
+.password:hover{
+	background: green;
+}
+
+/* forget password & mail */
+.nayeem {
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	font-size: 25px;
+	transition: 0.4s;
+	text-align: center;
+}
+.nayeem:hover {
+	background: rgb(228, 10, 10);
+}
+
+
+
+
+
